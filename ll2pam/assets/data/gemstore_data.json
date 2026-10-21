@@ -1,0 +1,370 @@
+{
+  "homePage": {
+    "storeName": "GemStore",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "selected": true,
+        "iconUrl": "https://api.iconify.design/mdi/account-supervisor-outline.svg?color=%2333333B&width=64"
+      },
+      {
+        "id": "men",
+        "name": "Men",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/account-outline.svg?color=%239CA1AA&width=64"
+      },
+      {
+        "id": "accessories",
+        "name": "Accessories",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/glasses.svg?color=%239CA1AA&width=64"
+      },
+      {
+        "id": "beauty",
+        "name": "Beauty",
+        "selected": false,
+        "iconUrl": "https://api.iconify.design/mdi/lipstick.svg?color=%239CA1AA&width=64"
+      }
+    ],
+    "heroBanner": {
+      "id": "autumn-collection-2021",
+      "title": "Autumn Collection 2021",
+      "imageUrl": "photos/autumn_collection_new_1.jpg",
+      "action": "View collection",
+      "slides": 3,
+      "activeSlide": 0
+    },
+    "featureProducts": [
+      {
+        "id": "p001",
+        "name": "Turtleneck Sweater",
+        "price": 39.99,
+        "currency": "USD",
+        "category": "Women",
+        "imageUrl": "photos/ac4448f9289ba74dc8e260cf2469fe907263ed9b.jpg",
+        "isFavorite": false,
+        "rating": 4.8,
+        "ratingCount": 42,
+        "description": "Soft knitted turtleneck sweater perfect for autumn weather."
+      },
+      {
+        "id": "p002",
+        "name": "Long Sleeve Dress",
+        "price": 45.0,
+        "currency": "USD",
+        "category": "Women",
+        "imageUrl": "photos/long_sleeve_dress_portrait.png",
+        "isFavorite": true,
+        "rating": 4.9,
+        "ratingCount": 65,
+        "description": "Elegant printed long sleeve dress with modern fit."
+      },
+      {
+        "id": "p003",
+        "name": "Sportwear Set",
+        "price": 80.0,
+        "currency": "USD",
+        "category": "Women",
+        "imageUrl": "photos/761f46596218a649ae167df03599465380531f96.png",
+        "isFavorite": true,
+        "rating": 4.9,
+        "ratingCount": 83,
+        "description": "Sportswear is no longer under culture, it is no longer indie or cobbled together as it once was. Sport is fashion today."
+      },
+      {
+        "id": "p009",
+        "name": "Designer Sunglasses",
+        "price": 55.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_sunglasses.jpg",
+        "isFavorite": false,
+        "rating": 4.9,
+        "ratingCount": 51,
+        "description": "Stylish polarized sunglasses with UV400 protection."
+      },
+      {
+        "id": "p010",
+        "name": "Classic Chain Handbag",
+        "price": 120.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_handbag.jpg",
+        "isFavorite": true,
+        "rating": 4.9,
+        "ratingCount": 78,
+        "description": "Structured handbag with a polished chain strap for everyday styling."
+      },
+      {
+        "id": "p011",
+        "name": "Fashion Leather Bag",
+        "price": 75.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_bag.jpg",
+        "isFavorite": false,
+        "rating": 4.8,
+        "ratingCount": 34,
+        "description": "Elegant crossbody handbag crafted from soft genuine leather."
+      },
+      {
+        "id": "p013",
+        "name": "Matte Lipstick Set",
+        "price": 25.00,
+        "currency": "USD",
+        "category": "Beauty",
+        "imageUrl": "photos/beauty_lipstick.jpg",
+        "isFavorite": false,
+        "rating": 4.9,
+        "ratingCount": 62,
+        "description": "Long-lasting hydrating matte lipstick in vibrant shades."
+      },
+      {
+        "id": "p014",
+        "name": "Floral Glow Perfume",
+        "price": 85.00,
+        "currency": "USD",
+        "category": "Beauty",
+        "imageUrl": "photos/beauty_perfume.jpg",
+        "isFavorite": true,
+        "rating": 5.0,
+        "ratingCount": 91,
+        "description": "Luxurious eau de parfum infused with fresh floral notes."
+      },
+      {
+        "id": "p015",
+        "name": "Satin Evening Blouse",
+        "price": 52.00,
+        "currency": "USD",
+        "category": "Women",
+        "imageUrl": "photos/09e90f5ea1ecc64acbaaa975deb94ffe18def16c.png",
+        "isFavorite": false,
+        "rating": 4.8,
+        "ratingCount": 27,
+        "description": "A lightweight satin blouse designed for polished evenings."
+      },
+      {
+        "id": "p016",
+        "name": "Minimalist Leather Watch",
+        "price": 58.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_watch.jpg",
+        "isFavorite": false,
+        "rating": 4.8,
+        "ratingCount": 33,
+        "description": "Minimalist watch with a clean dial and a comfortable leather strap."
+      },
+      {
+        "id": "p017",
+        "name": "Classic Leather Belt",
+        "price": 32.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_belt.jpg",
+        "isFavorite": false,
+        "rating": 4.7,
+        "ratingCount": 24,
+        "description": "A versatile leather belt with a timeless metal buckle."
+      },
+      {
+        "id": "p018",
+        "name": "Hydrating Skin Care Kit",
+        "price": 42.00,
+        "currency": "USD",
+        "category": "Beauty",
+        "imageUrl": "photos/beauty_skincare.jpg",
+        "isFavorite": false,
+        "rating": 4.9,
+        "ratingCount": 46,
+        "description": "A gentle daily skin care kit for a fresh hydrated glow."
+      }
+    ],
+    "newCollection": {
+      "label": "NEW COLLECTION",
+      "title": "HANG OUT & PARTY",
+      "imageUrl": "photos/253f5374175bb9210b2f2de3f4abe98c37fd3cbb.png"
+    },
+    "recommended": [
+      {
+        "id": "p004",
+        "name": "White fashion hoodie",
+        "price": 29.0,
+        "currency": "USD",
+        "category": "Women",
+        "imageUrl": "photos/ce9ccb3eabc00976156cd7a6ef7715b1e60e96f3.png",
+        "isFavorite": false,
+        "rating": 4.7,
+        "ratingCount": 29,
+        "description": "Comfortable cotton fashion hoodie in white."
+      },
+      {
+        "id": "p009",
+        "name": "Designer Sunglasses",
+        "price": 55.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_sunglasses.jpg",
+        "isFavorite": false,
+        "rating": 4.9,
+        "ratingCount": 51,
+        "description": "Stylish polarized sunglasses with UV400 protection."
+      },
+      {
+        "id": "p010",
+        "name": "Classic Chain Handbag",
+        "price": 120.00,
+        "currency": "USD",
+        "category": "Accessories",
+        "imageUrl": "photos/accessory_handbag.jpg",
+        "isFavorite": true,
+        "rating": 5.0,
+        "ratingCount": 78,
+        "description": "Premium minimalist analog watch with genuine leather strap."
+      }
+    ],
+    "topCollections": [
+      {
+        "id": "c001",
+        "label": "Sale up to 40%",
+        "title": "FOR SLIM & BEAUTY",
+        "imageUrl": "photos/3d8289e005f646c4c914bb766d81b1457a1815b2.png"
+      },
+      {
+        "id": "c002",
+        "label": "Summer Collection 2021",
+        "title": "Most sexy & fabulous design",
+        "imageUrl": "photos/071373fad51ad0143a98105907f84f8d80c53d58.png"
+      }
+    ],
+    "categoryPromos": [
+      {
+        "id": "cp001",
+        "category": "T-Shirts",
+        "title": "The Office Life",
+        "imageUrl": "photos/24642656f175b762469766070dae1ee73196af89.png"
+      },
+      {
+        "id": "cp002",
+        "category": "Dresses",
+        "title": "Elegant Design",
+        "imageUrl": "photos/2059944f83f665e563d29b20be6188383e033306.png"
+      }
+    ]
+  },
+  "productPage": {
+    "product": {
+      "id": "p003",
+      "name": "Sportwear Set",
+      "price": 80.0,
+      "currency": "USD",
+      "mainImageUrl": "photos/550c305749d6c4a8efe5849bb6952d297db4e2c1.png",
+      "galleryImageUrls": [
+        "photos/550c305749d6c4a8efe5849bb6952d297db4e2c1.png"
+      ],
+      "rating": 4.9,
+      "ratingCount": 83,
+      "reviewCount": 47,
+      "description": "Sportswear is no longer under culture, it is no longer indie or cobbled together as it once was. Sport is fashion today. The top is oversized in fit and style, many need to size down.",
+      "descriptionExpanded": false,
+      "availableColors": [
+        {
+          "id": "beige",
+          "name": "Beige",
+          "value": "#E8BCA6"
+        },
+        {
+          "id": "black",
+          "name": "Black",
+          "value": "#000000"
+        },
+        {
+          "id": "coral",
+          "name": "Coral",
+          "value": "#F05F66"
+        }
+      ],
+      "selectedColor": "beige",
+      "availableSizes": [
+        "S",
+        "M",
+        "L"
+      ],
+      "selectedSize": "L",
+      "sizeAvailability": {
+        "S": false,
+        "M": false,
+        "L": true
+      },
+      "ratingBreakdown": [
+        {
+          "stars": 5,
+          "percentage": 80
+        },
+        {
+          "stars": 4,
+          "percentage": 12
+        },
+        {
+          "stars": 3,
+          "percentage": 5
+        },
+        {
+          "stars": 2,
+          "percentage": 3
+        },
+        {
+          "stars": 1,
+          "percentage": 0
+        }
+      ],
+      "reviews": [
+        {
+          "id": "r001",
+          "author": "Jennifer Rose",
+          "avatarUrl": "photos/5c86d1e9fefeb1de1a02e52e62f59bb5624dff95.png",
+          "rating": 5.0,
+          "createdAtLabel": "5m ago",
+          "text": "I love it. Awesome customer service!! Helped me out with adding an additional item to my order. Thanks again!"
+        },
+        {
+          "id": "r002",
+          "author": "Kelly Rihanna",
+          "avatarUrl": "photos/09e90f5ea1ecc64acbaaa975deb94ffe18def16c.png",
+          "rating": 5.0,
+          "createdAtLabel": "9m ago",
+          "text": "I'm very happy with order, It was delivered on and good quality. Recommended!"
+        }
+      ],
+      "similarProducts": [
+        {
+          "id": "p006",
+          "name": "Rise Crop Hoodie",
+          "price": 43.0,
+          "currency": "USD",
+          "imageUrl": "photos/f38890a225ddff0443fafd8c2e8b14967c27e285.png"
+        },
+        {
+          "id": "p007",
+          "name": "Gym Crop Top",
+          "price": 39.99,
+          "currency": "USD",
+          "imageUrl": "photos/1ba718d3938b04da6be29a56e3d4b6108c22d1e6.png"
+        },
+        {
+          "id": "p008",
+          "name": "Sport Sweatshirt",
+          "price": 47.99,
+          "currency": "USD",
+          "imageUrl": "photos/c83e7223d06d87d1604bef80ed425c7bbab5b054.png"
+        }
+      ],
+      "actions": {
+        "isFavorite": true,
+        "canAddToCart": true,
+        "addToCartLabel": "Add To Cart"
+      }
+    }
+  }
+}
